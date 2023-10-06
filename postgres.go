@@ -8,6 +8,7 @@ import (
 	"github.com/joho/godotenv"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
+	_ "github.com/lib/pq"
 )
 
 type postgresDB struct {
